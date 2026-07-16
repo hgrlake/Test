@@ -1,0 +1,196 @@
+LOCUS       NC_003197               1868 bp    DNA     linear   CON 08-SEP-2022
+DEFINITION  Salmonella enterica subsp. enterica serovar Typhimurium str. LT2,
+            complete genome.
+ACCESSION   NC_003197 REGION: 4601698..4603565
+VERSION     NC_003197.2
+DBLINK      BioProject: PRJNA57799
+            BioSample: SAMN02604315
+KEYWORDS    RefSeq.
+SOURCE      Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+  ORGANISM  Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Enterobacterales; Enterobacteriaceae; Salmonella.
+REFERENCE   1  (bases 1 to 1868)
+  AUTHORS   McClelland,M., Sanderson,K.E., Spieth,J., Clifton,S.W.,
+            Latreille,P., Courtney,L., Porwollik,S., Ali,J., Dante,M., Du,F.,
+            Hou,S., Layman,D., Leonard,S., Nguyen,C., Scott,K., Holmes,A.,
+            Grewal,N., Mulvaney,E., Ryan,E., Sun,H., Florea,L., Miller,W.,
+            Stoneking,T., Nhan,M., Waterston,R. and Wilson,R.K.
+  TITLE     Complete genome sequence of Salmonella enterica serovar Typhimurium
+            LT2
+  JOURNAL   Nature 413 (6858), 852-856 (2001)
+   PUBMED   11677609
+REFERENCE   2  (bases 1 to 1868)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-SEP-2022) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1868)
+  AUTHORS   McClelland,M., Jain,A., Saraogi,P., Mendelson,R., Westerman,R.,
+            SanMiguel,P. and Csonka,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JAN-2016) Department of Microbiology and Molecular
+            Genetics, University of California, Irvine, CA 92697, USA
+  REMARK    Sequence update by submitter
+REFERENCE   4  (bases 1 to 1868)
+  CONSRTM   The Salmonella typhimurium Genome Sequencing Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-MAR-2001) Genome Sequencing Center, Department of
+            Genetics, Washington University School of Medicine, 4444 Forest
+            Park Boulevard, St. Louis, MO 63108, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AE006468.
+            
+            On Dec 2, 2016 this sequence version replaced NC_003197.1.
+            Supported by NIH grant 5U 01 AI43283
+            
+            Coding sequences below are predicted from manually evaluated
+            computer analysis, using similarity information and the programs;
+            GLIMMER; http://www.tigr.org/softlab/glimmer/glimmer.html and
+            GeneMark; http://opal.biology.gatech.edu/GeneMark/
+            
+            EC numbers were kindly provided by Junko Yabuzaki and the Kyoto
+            Encyclopedia of Genes and Genomes; http://www.genome.ad.jp/kegg/,
+            and Pedro Romero and Peter Karp at EcoCyc;
+            http://ecocyc.PangeaSystems.com/ecocyc/
+            
+            The analyses of ribosome binding sites and promoter binding sites
+            were kindly provided by Heladia Salgado, Julio Collado-Vides and
+            ReguonDB;
+            http://kinich.cifn.unam.mx:8850/db/regulondb_intro.frameset
+            
+            This sequence was finished as follows unless otherwise noted: all
+            regions were double stranded, sequenced with an alternate
+            chemistries or covered by high quality data (i.e., phred quality >=
+            30); an attempt was made to resolve all sequencing problems, such
+            as compressions and repeats; all regions were covered by sequence
+            from more than one m13 subclone.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1868
+                     /organism="Salmonella enterica subsp. enterica serovar
+                     Typhimurium str. LT2"
+                     /mol_type="genomic DNA"
+                     /strain="LT2"
+                     /serovar="Typhimurium"
+                     /sub_species="enterica"
+                     /culture_collection="ATCC:700720"
+                     /culture_collection="SGSC:1412"
+                     /type_material="type strain of Salmonella enterica"
+                     /db_xref="taxon:99287"
+                     /focus
+     gene            <1..2
+                     /gene="amiB"
+                     /locus_tag="STM4358"
+                     /db_xref="GeneID:1255884"
+     CDS             <1..2
+                     /gene="amiB"
+                     /locus_tag="STM4358"
+                     /EC_number="3.5.1.28"
+                     /note="murein hydrolase; N-acetylmuramoyl-L-alanine
+                     amidase AMIB. (SW:AMIB_SALTY)"
+                     /codon_start=3
+                     /transl_table=11
+                     /product="N-acetylmuramoyl-l-alanine amidase II"
+                     /protein_id="NP_463219.1"
+                     /db_xref="GeneID:1255884"
+                     /translation="MIYRIKNAVIAALILLCAQAGAASLSDIQVSNGEQQARITLSFI
+                     GEPEYAYSQDGKRTVALDIRQTGVIQGLPLQFSGNNLVKTIRAGTPKDAQSLRLLVDL
+                     TENGKTEAVKRQNGGNYTVIFTINADVPPPPPPVVAKRVESAPRPTEPARNPFKSSDD
+                     RLTGVTSSNTVTRPAARASAGAGDKVVIAIDAGHGGQDPGAIGPGGTREKNVTIAIAR
+                     KLRTLLNNDPMFKGVLTRDGDYFISVMGRSDVARKQNANFLVSIHADAAPNRDATGAS
+                     VWVLSNRRANSEMANWLEQHEKQSELLGGAGDVLANSQSDPYLSQAVLDLQFGHSQRV
+                     GYDVATNVLSQLDGVGSLHKRRPEHASLGVLRSPDIPSILVETGFISNHGEERLLASD
+                     RYQQQIADAIYRGLRKYFAAHPIQSAPQGGPGQTASTNQPGAITAAN"
+     gene            1..1868
+                     /gene="mutL"
+                     /locus_tag="STM4359"
+                     /db_xref="GeneID:1255885"
+     regulatory      1..6
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="mutL"
+                     /locus_tag="STM4359"
+                     /note="putative RBS for mutL; RegulonDB:STMS1H004244"
+     CDS             12..1868
+                     /gene="mutL"
+                     /locus_tag="STM4359"
+                     /note="stimulates binding of Vsr and MutS to heteroduplex
+                     DNA; DNA mismatch repair protein MUTL. (SW:MUTL_SALTY)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="enzyme in methyl-directed mismatch repair"
+                     /protein_id="NP_463220.1"
+                     /db_xref="GeneID:1255885"
+                     /translation="MPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRVDI
+                     DIERGGAKLIRIRDNGCGIKKEELALALARHATSKIASLDDLEAIISLGFRGEALASI
+                     SSVSRLTLTSRTAEQAEAWQAYAEGRDMDVTVKPAAHPVGTTLEVLDLFYNTPARRKF
+                     MRTEKTEFNHIDEIIRRIALARFDVTLNLSHNGKLVRQYRAVAKDGQKERRLGAICGT
+                     PFLEQALAIEWQHGDLTLRGWVADPNHTTTALTEIQYCYVNGRMMRDRLINHAIRQAC
+                     EDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQQQT
+                     ETALPLEEIAPAPRHVQENRIAAGRNHFAVPAEPTAAREPATPRYSGGASGGNGGRQS
+                     AGGWPHAQPGYQKQQGEVYRTLLQTPTASPAPESVTPALDGHSQSFGRVLTIVGGDCA
+                     LLEHAGTIQLLSLPVAERWLRQAQLTPGQSPVCAQPLLIPLRLKVSADEKAALQKAQS
+                     LLGELGIEFQSDAQHVTIRAVPLPLRQQNLQILIPELIGYLAQQTTFATVNIAQWIAR
+                     NVQSEHPQWSMAQAISLLADVERLCPQLVKAPPGGLLQPVDLHSAMNALKHE"
+     gene            1854..>1868
+                     /gene="miaA"
+                     /locus_tag="STM4360"
+                     /db_xref="GeneID:1255886"
+     regulatory      1854..1859
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="miaA"
+                     /locus_tag="STM4360"
+                     /note="putative RBS for miaA; RegulonDB:STMS1H004245"
+     CDS             1861..>1868
+                     /gene="miaA"
+                     /locus_tag="STM4360"
+                     /EC_number="2.5.1.75"
+                     /note="tRNA delta(2)-isopentenylpyrophosphate transferase.
+                     (SW:MIAA_SALTY)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="delta(2)-isopentenylpyrophosphate tRNA-adenosine
+                     transferase"
+                     /protein_id="NP_463221.1"
+                     /db_xref="GeneID:1255886"
+                     /translation="MNDVSKASLPKAIFLMGPTASGKTALAIELRKVLPVELISVDSA
+                     LIYRGMDIGTAKPNADELKAAPHRLLDIRDPSQAYSAADFRRDALAQMAEITAAGRIP
+                     LLVGGTMLYFKALLEGLSPLPSADPEVRSRIEQQAAELGWEALHQQLQEIDPVAAARI
+                     HPNDPQRLSRALEVFFISGKTLTELTQTSGDALPYQVHQFAIAPASRELLHQRIELRF
+                     HQMLASGFEAEVRALFARGDLHTDLPSIRCVGYRQMWSYIEGEISYDEMVYRGVCATR
+                     QLAKRQMTWLRGWEGVRWLDSENPDRARKEVLQVVGAIAD"
+ORIGIN      
+        1 aaggagattt catgccgatt caggttctgc cgccgcagct tgcgaaccaa atcgccgctg
+       61 gcgaagtggt ggaacgccct gcgtcggttg ttaaagagct ggtagagaat agtctggatg
+      121 caggcgccac ccgcgttgat atcgacatcg agcgtggcgg cgcgaagctt attcgtattc
+      181 gcgacaatgg ctgcggcatt aaaaaagagg agctggcgct ggcgctggcc cgtcatgcca
+      241 ccagtaaaat cgcctcgctt gacgatctgg aagcgattat cagtctggga tttcgcggcg
+      301 aagcgctggc cagtatcagt tcggtctcgc gtttgacgct aacgtcgcgc acggcggagc
+      361 aggcggaagc ctggcaggcg tatgcggaag ggcgcgatat ggacgtgacg gtaaaacccg
+      421 ccgcgcaccc ggtcggcacc accctggaag ttctggatct cttttacaat acgcccgccc
+      481 ggcgcaaatt catgcgtacc gaaaaaacgg aatttaatca catcgatgag atcatccgtc
+      541 gtattgcatt ggcccgtttt gacgtcacgc ttaacctgtc gcacaacggc aaattggtac
+      601 ggcagtatcg cgctgtcgca aaggacgggc aaaaagagcg ccggttaggc gccatctgcg
+      661 gcacgccgtt tctcgaacag gcactggcga tcgagtggca gcatggcgat ctgaccctgc
+      721 gcggctgggt cgccgatccg aatcacacca ccacggcgtt aacggagatc cagtactgtt
+      781 atgtgaatgg ccgcatgatg cgcgaccgct tgatcaacca tgccattcgc caggcctgtg
+      841 aagataaact gggcgcggac caacagcctg cgtttgtgct gtatctggag attgacccgc
+      901 atcaggtgga tgtcaatgtt catcccgcca agcacgaagt gcgttttcat caatcccggc
+      961 tggtgcacga cttcatctat caaggggtgc tgagcgttct gcaacagcag acggaaacgg
+     1021 cgctgccgct ggaggagatt gcgccagcgc cgcggcatgt ccaggaaaac cgtatcgccg
+     1081 ccgggcgcaa ccattttgct gtacccgccg agccaactgc ggcgcgcgag cccgcgacac
+     1141 cgcgttattc cggcggcgca tcgggcggta acggcgggcg tcagtccgca ggtggttggc
+     1201 cgcacgcgca gccaggttat cagaagcagc agggcgaggt ttatcgcacg cttttacaga
+     1261 cgccgacggc gagccccgcg ccggagtcgg ttacgcctgc gcttgacgga catagccaga
+     1321 gtttcggtcg cgtactgaca atagtcggcg gtgactgcgc gttgctggaa cacgcgggga
+     1381 ctatccagct cttgtcgcta ccggttgcgg agcgttggct gcgtcaggcg cagcttacac
+     1441 cgggtcaaag tccggtttgc gcgcagccgt tgctgattcc gctgcgttta aaagtgagcg
+     1501 ccgatgaaaa agccgcgctg caaaaagccc aatctttgtt gggagaattg ggtattgaat
+     1561 ttcagtcaga tgcgcagcat gtgaccattc gggcggtgcc tttaccctta cgacaacaaa
+     1621 atttacaaat cttgattcct gaactgatag gctacctggc gcaacagacc acatttgcaa
+     1681 cggtcaatat tgcacaatgg atagcgcgta atgtgcagag cgaacatccg cagtggtcga
+     1741 tggcgcaggc catatcgctg ctggcggatg ttgagcggct atgtccgcag ctggtaaaag
+     1801 cgccgccggg tggcctgtta caacctgttg atttacattc ggcgatgaac gccctgaagc
+     1861 atgaatga
+//
+
